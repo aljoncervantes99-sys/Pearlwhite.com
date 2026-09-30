@@ -1,9 +1,0 @@
-{
-  "name": "pearl-white-website",
-  "version": "1.0.0",
-  "description": "Pearl White vacation rental website — static site, no build step required.",
-  "private": true,
-  "scripts": {
-    "start": "npx http-server . -p 8080 -c-1"
-  }
-}
