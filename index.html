@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pearl White | Vacation Rental &amp; Short-Term Stay in Pasay, Manila</title>
+<meta name="description" content="Pearl White is a boutique vacation rental in Pasay, Manila. A stay made beautiful: stylish interiors, pool, private parking and easy direct booking. A refined Airbnb alternative.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"VacationRental","name":"Pearl White","description":"Boutique short-term rental and vacation stay in Pasay, Manila.","address":{"@type":"PostalAddress","addressLocality":"Pasay, Manila"}}</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<nav>
+ <a class="logo" href="#top">PEARL WHITE</a>
+ <ul id="menu">
+  <li><a href="#top">Home</a></li><li><a href="#about">About</a></li><li><a href="#stays">Accommodations</a></li><li><a href="#amenities">Amenities</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#location">Location</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact">Contact</a></li>
+ </ul>
+ <a class="btn" href="#book" style="padding:.6rem 1.3rem">Book now</a>
+ <button id="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+</nav>
+
+<header class="hero" id="top">
+ <div class="in">
+  <h1>PEARL WHITE</h1>
+  <div class="sub">A Stay Made Beautiful</div>
+  <p>Escape the ordinary and experience a peaceful, beautifully designed stay where comfort meets understated luxury.</p>
+  <div class="btns"><a class="btn" href="#book">Book Your Stay</a><a class="btn ghost" href="#about">Explore Pearl White</a></div>
+ </div>
+ <div class="bar" role="search">
+  <div><label for="hin">Check-in</label><input type="date" id="hin"></div>
+  <div><label for="hout">Check-out</label><input type="date" id="hout"></div>
+  <div><label for="hg">Guests</label><select id="hg"></select></div>
+  <button class="btn" id="hcheck">Check Availability</button>
+ </div>
+</header>
+
+<section id="about" class="welcome">
+ <div class="wrap">
+  <div class="rv">
+   <h2>Welcome to Pearl White</h2>
+   <p>Pearl White is a private retreat made for slow mornings, long dinners and unhurried weekends. Every room is designed for rest, with soft textures, natural light and the small comforts that make a place feel like yours.</p>
+   <div class="pill"><span>Peaceful atmosphere</span><span>Stylish interiors</span><span>Comfortable accommodations</span><span>Thoughtful amenities</span><span>Convenient location</span><span>Couples, families &amp; friends</span></div>
+  </div>
+  <div class="ph tall rv" role="img" aria-label="Pearl White living space with natural light">Living space, morning light</div>
+ </div>
+</section>
+
+<section id="gallery" class="alt">
+ <div class="wrap">
+  <h2 class="rv">Property Gallery</h2>
+  <p class="sub">Tap a photo to view it full screen.</p>
+  <div class="tabs" id="tabs"></div>
+  <div class="grid" id="grid"></div>
+ </div>
+</section>
+<div id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer"><button id="lx" style="top:0;right:0" aria-label="Close">×</button><button id="lp" style="left:0" aria-label="Previous">‹</button><div class="ph" id="li"></div><button id="ln" style="right:0" aria-label="Next">›</button></div>
+
+<section>
+ <div class="wrap">
+  <h2 class="rv">The Pearl White Experience</h2>
+  <div class="cards">
+   <div class="card rv"><div class="dot"></div><h3>Comfort</h3><p>Thoughtfully designed spaces created for rest and relaxation.</p></div>
+   <div class="card rv"><div class="dot"></div><h3>Style</h3><p>Clean, modern interiors with a warm and welcoming atmosphere.</p></div>
+   <div class="card rv"><div class="dot"></div><h3>Privacy</h3><p>Enjoy your own comfortable space and a peaceful getaway.</p></div>
+   <div class="card rv"><div class="dot"></div><h3>Convenience</h3><p>Everything you need for a smooth and comfortable stay.</p></div>
+   <div class="card rv"><div class="dot"></div><h3>Memories</h3><p>A beautiful setting for weekend escapes, celebrations and special moments.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="stays" class="alt">
+ <div class="wrap">
+  <h2 class="rv">Accommodations</h2>
+  <div class="cards" id="acc"></div>
+ </div>
+</section>
+
+<section id="amenities">
+ <div class="wrap">
+  <h2 class="rv">Amenities</h2>
+  <p class="sub">Only what is truly here. Owner: remove any that don't apply.</p>
+  <div class="am" id="am"></div>
+ </div>
+</section>
+
+<section id="location" class="alt">
+ <div class="wrap">
+  <h2 class="rv">Everything Within Reach</h2>
+  <div class="loc">
+   <div class="map" role="img" aria-label="Map placeholder"><b>Pasay, Manila, Philippines<br><small style="color:var(--taupe)">Exact address shared after booking</small></b></div>
+   <div>
+    <p>Set in Pasay, Manila, Pearl White keeps you close to the city's landmarks, transport and everyday conveniences.</p>
+    <ul class="n" style="margin-top:1rem">
+     <li><b style="font-weight:500">Landmarks</b> · Rizal Park 7.3 km · Intramuros 8.4 km · Manila Ocean Park 7.1 km · Fort Santiago 8.0 km</li>
+     <li><b style="font-weight:500">Shopping</b> · Robinsons Place Manila, 6.4 km · 7-Eleven, 850 m</li>
+     <li><b style="font-weight:500">Airports</b> · Ninoy Aquino International (MNL), 2.3 km · Clark International (CRK), 87.8 km</li>
+     <li><b style="font-weight:500">Transportation</b> · Roxas Naia Bus Station Northbound, 270 m</li>
+     <li><b style="font-weight:500">Health</b> · Tambo Health Center, 470 m</li>
+     <li><b style="font-weight:500">Cash</b> · ATM, 80 m</li>
+    </ul>
+    <small style="color:var(--taupe);display:block;margin-top:.8rem">Distances shown are straight-line; actual travel distances may vary.</small>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="reviews">
+ <div class="wrap">
+  <h2 class="rv">Loved by Our Guests</h2>
+  <p class="sub">Sample reviews. Replace with real guest feedback.</p>
+  <div class="cards">
+   <div class="card rv"><div class="stars">★★★★★</div><p style="margin:.6rem 0">Calm, spotless and beautifully styled. We didn't want to leave.</p><small>Maria S. · March 2026</small></div>
+   <div class="card rv"><div class="stars">★★★★★</div><p style="margin:.6rem 0">Perfect for our family weekend. The kitchen had everything we needed.</p><small>Daniel R. · May 2026</small></div>
+   <div class="card rv"><div class="stars">★★★★★</div><p style="margin:.6rem 0">A quiet, elegant escape. Communication with the host was effortless.</p><small>Ana &amp; Paolo · July 2026</small></div>
+  </div>
+  <p style="margin-top:2rem"><a class="btn ghost" href="#contact">View All Reviews</a></p>
+ </div>
+</section>
+
+<section class="alt">
+ <div class="wrap">
+  <h2 class="rv">House Rules</h2>
+  <p class="sub">Placeholders. Replace with your actual policies.</p>
+  <div class="rules">
+   <div><b>Check-in</b>From 1:00 AM, until 10:00 PM</div>
+   <div><b>Check-out</b>Until 7:00 AM</div>
+   <div><b>Maximum guests</b>[Set by owner]</div>
+   <div><b>Smoking</b>[Policy]</div>
+   <div><b>Pets</b>[Policy]</div>
+   <div><b>Noise</b>[Quiet hours]</div>
+   <div><b>Parties &amp; events</b>[Policy]</div>
+   <div><b>Cancellation</b>[Policy]</div>
+   <div><b>Extra beds</b>Availability depends on the room you choose; ask the property for details</div>
+   <div><b>Group bookings</b>Booking more than 5 rooms may carry different policies and additional supplements</div>
+  </div>
+ </div>
+</section>
+
+<section class="cta">
+ <div class="wrap">
+  <h2>Your Pearl White Escape Awaits</h2>
+  <p>Take a break, slow down, and enjoy a stay designed around comfort.</p>
+  <a class="btn" href="#book">Check Availability</a> <a class="btn ghost" href="#contact">Contact Us</a>
+ </div>
+</section>
+
+<section id="book">
+ <div class="wrap" style="text-align:center">
+  <h2>Request Your Stay</h2>
+  <p class="sub" style="margin:auto">Choose your dates to see availability and price.</p>
+  <div class="box" style="text-align:left">
+   <div class="f">
+    <div><label for="bin">Check-in</label><input type="date" id="bin"></div>
+    <div><label for="bout">Check-out</label><input type="date" id="bout"></div>
+    <div><label for="bg">Guests</label><select id="bg"></select></div>
+    <div><label for="bs">Accommodation</label><select id="bs"></select></div>
+    <div class="full"><button class="btn" id="bcheck" style="width:100%">Check Availability</button></div>
+   </div>
+   <div class="msg" id="bmsg" role="status" aria-live="polite"></div>
+   <form id="req" style="display:none;margin-top:1.5rem" novalidate>
+    <p class="sub" style="margin:0 0 1rem">One more step — we'll email this request straight to the host.</p>
+    <div class="f">
+     <div><label for="nm">Full name</label><input id="nm" autocomplete="name"></div>
+     <div><label for="em">Email</label><input id="em" type="email" autocomplete="email"></div>
+     <div><label for="ph">Phone (optional)</label><input id="ph" type="tel" autocomplete="tel"></div>
+     <div class="full"><label for="nt">Message (optional)</label><textarea id="nt" rows="2"></textarea></div>
+     <div class="full"><button class="btn" type="submit" style="width:100%">Send Booking Request</button></div>
+    </div>
+   </form>
+  </div>
+ </div>
+</section>
+
+<footer id="contact">
+ <div class="logo" style="font-size:1.8rem">PEARL WHITE</div>
+ <div class="sub">A Stay Made Beautiful</div>
+ <ul><li><a href="#top">Home</a></li><li><a href="#about">About</a></li><li><a href="#stays">Accommodations</a></li><li><a href="#amenities">Amenities</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#location">Location</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact">Contact</a></li></ul>
+ <p style="margin:auto">Instagram · Facebook · Airbnb · Booking.com (add your links)<br>Contact the host: <span id="footer-email">host@pearlwhite.example</span><span id="footer-wa"></span></p>
+ <small style="display:block;margin-top:1.5rem;color:var(--taupe)">© 2026 Pearl White. Vacation stay in Pasay, Manila.</small>
+</footer>
+<a href="#book" class="btn" id="sticky">Book Now</a>
+
+<script src="assets/js/script.js" defer></script>
+</body>
+</html>
